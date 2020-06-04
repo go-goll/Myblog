@@ -1,0 +1,37 @@
+debug: true
+
+server:
+  host: "0.0.0.0"
+  port: "8000"
+
+
+#mongodb:
+#  host: "localmgo.pymom.com"
+#  port: "28021"
+#  user: "xiaochengxu"
+#  passwd: "xiaochengxu"
+#  dbname: "xiaochengxu"
+#
+redis:
+  host: "123.56.113.200"
+  port: "6382"
+  passwd: "wang"
+  db: 1
+#auth:
+#  mongodb:
+#    host: "localmgo.pymom.com"
+#    port: "28020"
+#    user: "authuser"
+#    passwd: "passwd"
+#    dbname: "userandrole"
+#  redis:
+#    host: "localredis.pymom.com"
+#    port: "6380"
+#    passwd: "56grTbvMYaOQ"
+#    db: 14
+mysql:
+  host: "123.56.113.200"
+  port: "3306"
+  user: "root"
+  passwd: "wang123"
+  dbname: "blog"
